@@ -60,9 +60,9 @@ public class TokenServiceImpl implements TokenService {
             boolean id = re.getBody();
 
             // failed code
-            if (!id) {
+            /*if (!id) {
                 return new Response<>(0, "Verification failed.", null);
-            }
+            }*/
         }
 
         // verify username and password
